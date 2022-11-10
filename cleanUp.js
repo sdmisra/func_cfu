@@ -8,7 +8,7 @@
 
 
 // EX 1: Fixed - added semicolons to match the rest of file.
-function nameQuestion(); {
+function nameQuestion() {
   console.log("Hello, what is your name?");
 }
 
@@ -16,7 +16,7 @@ nameQuestion();
 
 
 // EX 2: Indented code block, Moved ending } flush to the left side, added semicolons on lines 19 and 20, added parenthesis to line 20(I like to use parenthesis to separate things up for clarity)
-function addThreeNums(first, second, third); {
+function addThreeNums(first, second, third) {
   var sum = (first + second + third);
   console.log(sum);
 }
@@ -38,7 +38,7 @@ makeFreshPesto();
 
 
 //  EX 4: Moved starting { from code block to same line as function start, indented lines 42 and 43 to match rest of file, removed errant '.' from console log statement and moved that line up to sit directly below rest of code block, semicolons added, moved } for code block snug against left side. Changed function name to "averageNum" to more specifically describe purpose.
-function averageNum(num1, num2); {
+function averageNum(num1, num2) {
   var sum = num1 + num2;
   var avg = sum / 2;
   console.log(`the average is: ${avg}`);
